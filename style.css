@@ -1,0 +1,25 @@
+html body svg * {
+    fill: none;
+    stroke: #EEEEEE;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    transition: 0.25s;
+
+}
+body{
+  overflow: hidden;
+}
+.stage1, .stage2, .stage3{
+  stroke: black;
+  display: grid;
+}
+.hangman{
+  position: absolute;
+  z-index: 1;
+}
+.startbtn{
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+}
